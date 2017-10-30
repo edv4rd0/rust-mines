@@ -1,0 +1,2 @@
+# rust-mines
+Rust minesweeper
