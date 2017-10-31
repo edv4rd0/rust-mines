@@ -19,7 +19,7 @@ fn main() {
         };
 
     let mut renderer = match window
-        .renderer()
+        .into_canvas()
         .build() {
             Ok(renderer) => renderer,
             Err(err) => panic!("failed to create renderer: {}", err)
