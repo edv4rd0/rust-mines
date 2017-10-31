@@ -4,8 +4,4 @@ version = "0.1.0"
 authors = ["Edward Williams <me@edwardwilliams.geek.nz>"]
 
 [dependencies]
-sdl2 = "0.29.0"
-
-[[bin]]
-name = "mines"
-path = "main.rs"
+sdl2 = "0.30"
